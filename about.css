@@ -1,0 +1,73 @@
+body {
+font-family: 'Helvetica', sans-serif;
+
+background-color: black;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+/* Background image resizing trick courtesy of Corey Worrell, from https://css-tricks.com/perfect-full-page-background-image/ */
+#bg {
+  position: fixed; 
+  top: -46%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+/* End of background image resizing trick */
+
+
+#header {
+color: white;
+background-color: #fff;
+background-color: rgba(0,0,0, 0.7);
+border-style: none;
+border-radius: 15px 15px 15px 0px;
+
+}
+
+#leftmenu {
+float: left;
+height: 100%;
+width:12%;
+color: white;
+word-wrap: break-word;
+background-color: #fff;
+background-color: rgba(0,0,0, 0.7);
+text-align: center;
+font-weight: bold;
+font-size: 1.8vw;
+position: fixed;
+}
+
+#about {
+width: 33%;
+
+margin-left: 61%;
+margin-top: 4%;
+position: fixed;
+color: white;
+background-color: #fff;
+background-color: rgba(0,0,0, 0.7);
+border-radius: 15px 15px 15px 15px;
+}
+
+#socialmedia {
+position: relative;
+left: 2.5%;
+
+}
